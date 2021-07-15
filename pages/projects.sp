@@ -1,0 +1,12 @@
+~title[projects]
+~template[template.html]
+~replace[<!--BODY-GOES-HERE-->]
+
+h1[tinlang]
+p[basically everything you do is a function call. there are no statements or keywords. sorta like lisp, but less data oriented.]
+h2[sample code]
+pre[fun("main", args("argc", "^argv"), block(`<br>    println("hello "),<br>    println("world!")<br>`))]
+h1[the alter tribune]
+p[the crowd-sourced newspaper<br>every 12 am or pm, a new set of articles is chosen to be displayed on the front page.<br>after an article is shown, it is destroyed.]
+p[<a href="https://alter.snwy.me/">the alter tribune</a>]
+h3[there isn't much here because i do not like to work on a lot of things at once.]

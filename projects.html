@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>index - snwy</title>
+    <meta name="description" content="my site. there are things here." />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">    
+  </head>
+  <body>
+
+    <header>
+      <h1>snwy.me</h1>
+      <p id="tagline">there'd be a cool message here, but your js is off.</p>
+      <nav>
+        <a href="index.html">index</a>
+        <a href="projects.html">projects</a>
+        <a href="about.html">about</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>tinlang</h1>
+<p>basically everything you do is a function call. there are no statements or keywords. sorta like lisp, but less data oriented.</p>
+<h2>sample code</h2>
+<pre>fun("main", args("argc", "^argv"), block(`<br>    println("hello "),<br>    println("world!")<br>`))</pre>
+<h1>the alter tribune</h1>
+<p>the crowd-sourced newspaper<br>every 12 am or pm, a new set of articles is chosen to be displayed on the front page.<br>after an article is shown, it is destroyed.</p>
+<p><a href="https://alter.snwy.me/">the alter tribune</a></p>
+<h3>there isn't much here because i do not like to work on a lot of things at once.</h3>
+
+    </main>
+
+    <footer>
+      licensed with the GPL <a href="http://giant-penis-license.org/">(Giant Penis License)</a>
+      <br>
+      thank you <a href="https://matthil.de">matthil.de</a> for your site guide!  
+      <br>
+      the source code for this site is <a href="https://github.com/YaBoiMason/snwy.me">here.</a>  
+    </footer>
+  </body>
+  <script>
+    var r_text = new Array (); 
+    r_text[0] = "somebody once told me, hands off my macaroni"; 
+    r_text[1] = "based."; 
+    r_text[2] = "two trucks, having sex"; 
+    r_text[3] = "this is literally 1984"; 
+    r_text[4] = "fuck corporations"; 
+    r_text[5] = "i use openbsd, btw";
+    r_text[6] = "so long, gay bowser";
+    r_text[7] = "why would a loving god create such agony";
+    r_text[8] = "it's better than nothing, i guess";
+    r_text[9] = "eeeeee";
+    r_text[10] = "jeph (edited)";
+    document.getElementById("tagline").innerHTML = r_text[Math.floor(r_text.length * Math.random())];
+  </script>
+</html>
