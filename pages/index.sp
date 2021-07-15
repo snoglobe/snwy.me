@@ -7,7 +7,7 @@ p[welcome to my site.<br>why are you here.]
 
 h1[right to repair]
 p[<a href="https://repair.org/">information</a>]
-p[<a href="https://ftc.repait.org/">sign the petition</a>]
+p[<a href="https://ftc.repair.org/">sign the petition</a>]
 
 h1[crypto]
 p[ravencoin]
