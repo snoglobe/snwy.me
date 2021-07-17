@@ -19,10 +19,10 @@
     </header>
 
     <main>
-      <h1>tinlang</h1>
-<p>basically everything you do is a function call. there are no statements or keywords. sorta like lisp, but less data oriented.</p>
+      <h1>tiny</h1>
+<p>i decided to figure out what the smallest usable language i could build is. it's pretty usable and only 84 lines of python code. (i know i could have built a brainfuck interpreter in like -2 lines of code but i wanted something usable)</p>
 <h2>sample code</h2>
-<pre>fun("main", args("argc", "^argv"), block(`<br>    println("hello "),<br>    println("world!")<br>`))</pre>
+<pre>; accept number as input<br>input n<br>p = 1<br><br>p = * p n<br>n = - n 1<br>; if n is greater than zero, go back to line 5<br>condition = > n 0<br>goto 5 condition<br><br>; print the result<br>print p</pre>
 <h1>the alter tribune</h1>
 <p>the crowd-sourced newspaper<br>every 12 am or pm, a new set of articles is chosen to be displayed on the front page.<br>after an article is shown, it is destroyed.</p>
 <p><a href="https://alter.snwy.me/">the alter tribune</a></p>
